@@ -1,0 +1,192 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 18 Jul 2026 22:14:28 at https://consult-ant.uk/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://consult-ant.uk/ -O1 "C:\My Web Sites\Consult-Ant" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:15:18	Error: 	"Method Not Allowed" (405) at link https://consult-ant.uk/xmlrpc.php (from https://consult-ant.uk/)
+22:27:30	Error: 	"Forbidden" (403) at link https://consult-ant.uk/wp-content/plugins/jetpack/_inc/blocks/ (from https://consult-ant.uk/)
+22:27:30	Warning: 	Found for https://consult-ant.uk/portfolio-2/?share=twitter
+22:27:30	Warning: 	File has moved from https://consult-ant.uk/portfolio-2/?share=twitter to https://x.com/intent/tweet?text=Portfolio&url=https%3A%2F%2Fconsult-ant.uk%2Fportfolio-2%2F
+22:27:30	Warning: 	Found for https://consult-ant.uk/portfolio-2/?share=facebook
+22:27:30	Warning: 	File has moved from https://consult-ant.uk/portfolio-2/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2Fportfolio-2%2F&t=Portfolio
+22:27:30	Warning: 	Found for https://consult-ant.uk/sketches-vs-reality/?share=twitter
+22:27:30	Warning: 	File has moved from https://consult-ant.uk/sketches-vs-reality/?share=twitter to https://x.com/intent/tweet?text=Sketches%20vs%20Reality&url=https%3A%2F%2Fconsult-ant.uk%2Fsketches-vs-reality%2F
+22:27:30	Warning: 	Found for https://consult-ant.uk/sketches-vs-reality/?share=facebook
+22:27:30	Warning: 	File has moved from https://consult-ant.uk/sketches-vs-reality/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2Fsketches-vs-reality%2F&t=Sketches%20vs%20Reality
+22:27:31	Warning: 	Found for https://consult-ant.uk/talks-and-presentations/?share=twitter
+22:27:31	Warning: 	File has moved from https://consult-ant.uk/talks-and-presentations/?share=twitter to https://x.com/intent/tweet?text=Talks%20and%20Presentations&url=https%3A%2F%2Fconsult-ant.uk%2Ftalks-and-presentations%2F
+22:27:31	Warning: 	Found for https://consult-ant.uk/talks-and-presentations/?share=facebook
+22:27:31	Warning: 	File has moved from https://consult-ant.uk/talks-and-presentations/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2Ftalks-and-presentations%2F&t=Talks%20and%20Presentations
+22:27:31	Warning: 	Found for https://consult-ant.uk/contact/?share=twitter
+22:27:31	Warning: 	File has moved from https://consult-ant.uk/contact/?share=twitter to https://x.com/intent/tweet?text=Contact&url=https%3A%2F%2Fconsult-ant.uk%2Fcontact%2F
+22:27:31	Warning: 	Found for https://consult-ant.uk/contact/?share=facebook
+22:27:31	Warning: 	File has moved from https://consult-ant.uk/contact/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2Fcontact%2F&t=Contact
+22:27:31	Warning: 	Found for https://consult-ant.uk/2024/05/13/reflections-on-data24-my-first-tableau-conference/?share=twitter
+22:27:31	Warning: 	File has moved from https://consult-ant.uk/2024/05/13/reflections-on-data24-my-first-tableau-conference/?share=twitter to https://x.com/intent/tweet?text=Reflections%20on%20%23Data24%20-%20My%20first%20Tableau%20Conference%21&url=https%3A%2F%2Fconsult-ant.uk%2F2024%2F05%2F13%2Freflections-on-data24-my-first-tableau-conference%2F
+22:27:31	Warning: 	Found for https://consult-ant.uk/2024/05/13/reflections-on-data24-my-first-tableau-conference/?share=facebook
+22:27:31	Warning: 	File has moved from https://consult-ant.uk/2024/05/13/reflections-on-data24-my-first-tableau-conference/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2024%2F05%2F13%2Freflections-on-data24-my-first-tableau-conference%2F&t=Reflections%20on%20%23Data24%20-%20My%20first%20Tableau%20Conference%21
+22:27:31	Error: 	"Not Found" (404) at link https://consult-ant.uk/2024/05/13/reflections-on-data24-my-first-tableau-conference/iframe.src (from https://consult-ant.uk/2024/05/13/reflections-on-data24-my-first-tableau-conference/)
+22:28:31	Error: 	"Not Found" (404) at link https://consult-ant.uk/category/general/%22https:/www.pexels.com/photo/clear-light-bulb-355948/ (from https://consult-ant.uk/category/general/)
+22:28:42	Error: 	"Not Found" (404) at link https://consult-ant.uk/category/general/%22https:/www.pexels.com/photo/black-and-red-typewriter-on-white-table-3695297/ (from https://consult-ant.uk/category/general/)
+22:28:54	Warning: 	Found for https://consult-ant.uk/2024/03/21/magnifying-ants/?share=twitter
+22:28:54	Warning: 	File has moved from https://consult-ant.uk/2024/03/21/magnifying-ants/?share=twitter to https://x.com/intent/tweet?text=Magnifying%20Ants&url=https%3A%2F%2Fconsult-ant.uk%2F2024%2F03%2F21%2Fmagnifying-ants%2F
+22:28:54	Warning: 	Found for https://consult-ant.uk/2024/03/21/magnifying-ants/?share=facebook
+22:28:54	Warning: 	File has moved from https://consult-ant.uk/2024/03/21/magnifying-ants/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2024%2F03%2F21%2Fmagnifying-ants%2F&t=Magnifying%20Ants
+22:28:54	Error: 	"Not Found" (404) at link https://consult-ant.uk/2024/03/21/magnifying-ants/iframe.src (from https://consult-ant.uk/2024/03/21/magnifying-ants/)
+22:32:24	Warning: 	Found for https://consult-ant.uk/2023/12/21/page-syncing-with-rudolph/?share=twitter
+22:32:24	Warning: 	File has moved from https://consult-ant.uk/2023/12/21/page-syncing-with-rudolph/?share=twitter to https://x.com/intent/tweet?text=Page%20Syncing%20with%20Rudolph&url=https%3A%2F%2Fconsult-ant.uk%2F2023%2F12%2F21%2Fpage-syncing-with-rudolph%2F
+22:32:24	Warning: 	Found for https://consult-ant.uk/2023/12/21/page-syncing-with-rudolph/?share=facebook
+22:32:24	Warning: 	File has moved from https://consult-ant.uk/2023/12/21/page-syncing-with-rudolph/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2023%2F12%2F21%2Fpage-syncing-with-rudolph%2F&t=Page%20Syncing%20with%20Rudolph
+22:32:25	Error: 	"Not Found" (404) at link https://consult-ant.uk/2023/12/21/page-syncing-with-rudolph/iframe.src (from https://consult-ant.uk/2023/12/21/page-syncing-with-rudolph/)
+22:32:25	Warning: 	Found for https://consult-ant.uk/2023/09/25/cool-stuff-in-tableau-public-september-2023/?share=twitter
+22:32:25	Warning: 	File has moved from https://consult-ant.uk/2023/09/25/cool-stuff-in-tableau-public-september-2023/?share=twitter to https://x.com/intent/tweet?text=Cool%20stuff%20in%20Tableau%20Public%20-%20September%202023&url=https%3A%2F%2Fconsult-ant.uk%2F2023%2F09%2F25%2Fcool-stuff-in-tableau-public-september-2023%2F
+22:32:25	Warning: 	Found for https://consult-ant.uk/2023/09/25/cool-stuff-in-tableau-public-september-2023/?share=facebook
+22:32:25	Warning: 	File has moved from https://consult-ant.uk/2023/09/25/cool-stuff-in-tableau-public-september-2023/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2023%2F09%2F25%2Fcool-stuff-in-tableau-public-september-2023%2F&t=Cool%20stuff%20in%20Tableau%20Public%20-%20September%202023
+22:32:25	Error: 	"Not Found" (404) at link https://consult-ant.uk/2023/09/25/cool-stuff-in-tableau-public-september-2023/iframe.src (from https://consult-ant.uk/2023/09/25/cool-stuff-in-tableau-public-september-2023/)
+22:32:43	Error: 	"Not Found" (404) at link https://consult-ant.uk/tag/blog/%22https:/www.pexels.com/photo/clear-light-bulb-355948/ (from https://consult-ant.uk/tag/blog/)
+22:32:43	Warning: 	Found for https://consult-ant.uk/2023/07/14/cool-stuff-in-tableau-public-july-2023/?share=twitter
+22:32:43	Warning: 	File has moved from https://consult-ant.uk/2023/07/14/cool-stuff-in-tableau-public-july-2023/?share=twitter to https://x.com/intent/tweet?text=Cool%20stuff%20in%20Tableau%20Public%20-%20July%202023&url=https%3A%2F%2Fconsult-ant.uk%2F2023%2F07%2F14%2Fcool-stuff-in-tableau-public-july-2023%2F
+22:32:44	Warning: 	Found for https://consult-ant.uk/2023/07/14/cool-stuff-in-tableau-public-july-2023/?share=facebook
+22:32:44	Warning: 	File has moved from https://consult-ant.uk/2023/07/14/cool-stuff-in-tableau-public-july-2023/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2023%2F07%2F14%2Fcool-stuff-in-tableau-public-july-2023%2F&t=Cool%20stuff%20in%20Tableau%20Public%20-%20July%202023
+22:32:44	Error: 	"Not Found" (404) at link https://consult-ant.uk/2023/07/14/cool-stuff-in-tableau-public-july-2023/iframe.src (from https://consult-ant.uk/2023/07/14/cool-stuff-in-tableau-public-july-2023/)
+22:32:44	Warning: 	Found for https://consult-ant.uk/2023/05/04/light-sabers/?share=twitter
+22:32:44	Warning: 	File has moved from https://consult-ant.uk/2023/05/04/light-sabers/?share=twitter to https://x.com/intent/tweet?text=Light%20Sabers&url=https%3A%2F%2Fconsult-ant.uk%2F2023%2F05%2F04%2Flight-sabers%2F
+22:32:44	Warning: 	Found for https://consult-ant.uk/2023/05/04/light-sabers/?share=facebook
+22:32:44	Warning: 	File has moved from https://consult-ant.uk/2023/05/04/light-sabers/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2023%2F05%2F04%2Flight-sabers%2F&t=Light%20Sabers
+22:32:44	Error: 	"Not Found" (404) at link https://consult-ant.uk/2023/05/04/light-sabers/iframe.src (from https://consult-ant.uk/2023/05/04/light-sabers/)
+22:32:44	Warning: 	Found for https://consult-ant.uk/2023/01/31/sizing-marks-across-worksheets/?share=twitter
+22:32:44	Warning: 	File has moved from https://consult-ant.uk/2023/01/31/sizing-marks-across-worksheets/?share=twitter to https://x.com/intent/tweet?text=Sizing%20Marks%20Across%20Worksheets&url=https%3A%2F%2Fconsult-ant.uk%2F2023%2F01%2F31%2Fsizing-marks-across-worksheets%2F
+22:32:44	Warning: 	Found for https://consult-ant.uk/2023/01/31/sizing-marks-across-worksheets/?share=facebook
+22:32:44	Warning: 	File has moved from https://consult-ant.uk/2023/01/31/sizing-marks-across-worksheets/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2023%2F01%2F31%2Fsizing-marks-across-worksheets%2F&t=Sizing%20Marks%20Across%20Worksheets
+22:32:44	Error: 	"Not Found" (404) at link https://consult-ant.uk/2023/01/31/sizing-marks-across-worksheets/iframe.src (from https://consult-ant.uk/2023/01/31/sizing-marks-across-worksheets/)
+22:32:51	Warning: 	Found for https://consult-ant.uk/2023/01/03/my-2022-review-that-was-pretty-good/?share=twitter
+22:32:51	Warning: 	File has moved from https://consult-ant.uk/2023/01/03/my-2022-review-that-was-pretty-good/?share=twitter to https://x.com/intent/tweet?text=My%202022%20Review%20-%20That%20was%20pretty%20good%21%21&url=https%3A%2F%2Fconsult-ant.uk%2F2023%2F01%2F03%2Fmy-2022-review-that-was-pretty-good%2F
+22:32:51	Warning: 	Found for https://consult-ant.uk/2023/01/03/my-2022-review-that-was-pretty-good/?share=facebook
+22:32:51	Warning: 	File has moved from https://consult-ant.uk/2023/01/03/my-2022-review-that-was-pretty-good/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2023%2F01%2F03%2Fmy-2022-review-that-was-pretty-good%2F&t=My%202022%20Review%20-%20That%20was%20pretty%20good%21%21
+22:32:51	Error: 	"Not Found" (404) at link https://consult-ant.uk/2023/01/03/my-2022-review-that-was-pretty-good/iframe.src (from https://consult-ant.uk/2023/01/03/my-2022-review-that-was-pretty-good/)
+22:32:51	Warning: 	Found for https://consult-ant.uk/2022/08/10/create-a-carousel-menu-in-tableau/?share=twitter
+22:32:51	Warning: 	File has moved from https://consult-ant.uk/2022/08/10/create-a-carousel-menu-in-tableau/?share=twitter to https://x.com/intent/tweet?text=Create%20a%20Carousel%20menu%20in%20Tableau&url=https%3A%2F%2Fconsult-ant.uk%2F2022%2F08%2F10%2Fcreate-a-carousel-menu-in-tableau%2F
+22:32:51	Warning: 	Found for https://consult-ant.uk/2022/08/10/create-a-carousel-menu-in-tableau/?share=facebook
+22:32:51	Warning: 	File has moved from https://consult-ant.uk/2022/08/10/create-a-carousel-menu-in-tableau/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2022%2F08%2F10%2Fcreate-a-carousel-menu-in-tableau%2F&t=Create%20a%20Carousel%20menu%20in%20Tableau
+22:32:51	Error: 	"Not Found" (404) at link https://consult-ant.uk/2022/08/10/create-a-carousel-menu-in-tableau/iframe.src (from https://consult-ant.uk/2022/08/10/create-a-carousel-menu-in-tableau/)
+22:32:51	Warning: 	Found for https://consult-ant.uk/2022/03/04/building-an-interactive-skyrim-map/?share=twitter
+22:32:51	Warning: 	File has moved from https://consult-ant.uk/2022/03/04/building-an-interactive-skyrim-map/?share=twitter to https://x.com/intent/tweet?text=Building%20an%20Interactive%20Skyrim%20Map&url=https%3A%2F%2Fconsult-ant.uk%2F2022%2F03%2F04%2Fbuilding-an-interactive-skyrim-map%2F
+22:32:51	Warning: 	Found for https://consult-ant.uk/2022/03/04/building-an-interactive-skyrim-map/?share=facebook
+22:32:51	Warning: 	File has moved from https://consult-ant.uk/2022/03/04/building-an-interactive-skyrim-map/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2022%2F03%2F04%2Fbuilding-an-interactive-skyrim-map%2F&t=Building%20an%20Interactive%20Skyrim%20Map
+22:32:51	Error: 	"Not Found" (404) at link https://consult-ant.uk/2022/03/04/building-an-interactive-skyrim-map/iframe.src (from https://consult-ant.uk/2022/03/04/building-an-interactive-skyrim-map/)
+22:33:29	Error: 	"Not Found" (404) at link https://consult-ant.uk/page/2/%22https:/www.pexels.com/photo/clear-light-bulb-355948/ (from https://consult-ant.uk/page/2/)
+22:33:29	Error: 	"Not Found" (404) at link https://consult-ant.uk/2021/02/%22https:/www.pexels.com/photo/clear-light-bulb-355948/ (from https://consult-ant.uk/2021/02/)
+22:33:30	Error: 	"Not Found" (404) at link https://consult-ant.uk/2020/08/%22https:/www.pexels.com/photo/black-and-red-typewriter-on-white-table-3695297/ (from https://consult-ant.uk/2020/08/)
+22:33:30	Error: 	"Not Found" (404) at link https://consult-ant.uk/author/consultant5965/page/2/%22https:/www.pexels.com/photo/clear-light-bulb-355948/ (from https://consult-ant.uk/author/consultant5965/page/2/)
+22:33:30	Warning: 	Found for https://consult-ant.uk/2021/12/14/decorate-your-own-tree/?share=twitter
+22:33:30	Warning: 	File has moved from https://consult-ant.uk/2021/12/14/decorate-your-own-tree/?share=twitter to https://x.com/intent/tweet?text=Decorate%20Your%20Own%20Tree%20-%20A%20Walkthrough&url=https%3A%2F%2Fconsult-ant.uk%2F2021%2F12%2F14%2Fdecorate-your-own-tree%2F
+22:33:31	Warning: 	Found for https://consult-ant.uk/2021/12/14/decorate-your-own-tree/?share=facebook
+22:33:31	Warning: 	File has moved from https://consult-ant.uk/2021/12/14/decorate-your-own-tree/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2021%2F12%2F14%2Fdecorate-your-own-tree%2F&t=Decorate%20Your%20Own%20Tree%20-%20A%20Walkthrough
+22:33:31	Error: 	"Not Found" (404) at link https://consult-ant.uk/2021/12/14/decorate-your-own-tree/iframe.src (from https://consult-ant.uk/2021/12/14/decorate-your-own-tree/)
+22:33:31	Warning: 	Found for https://consult-ant.uk/2021/04/24/sketches-vs-final-design/?share=twitter
+22:33:31	Warning: 	File has moved from https://consult-ant.uk/2021/04/24/sketches-vs-final-design/?share=twitter to https://x.com/intent/tweet?text=Sketches%20vs%20Final%20Design&url=https%3A%2F%2Fconsult-ant.uk%2F2021%2F04%2F24%2Fsketches-vs-final-design%2F
+22:33:31	Warning: 	Found for https://consult-ant.uk/2021/04/24/sketches-vs-final-design/?share=facebook
+22:33:31	Warning: 	File has moved from https://consult-ant.uk/2021/04/24/sketches-vs-final-design/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2021%2F04%2F24%2Fsketches-vs-final-design%2F&t=Sketches%20vs%20Final%20Design
+22:33:31	Error: 	"Not Found" (404) at link https://consult-ant.uk/2021/04/24/sketches-vs-final-design/iframe.src (from https://consult-ant.uk/2021/04/24/sketches-vs-final-design/)
+22:33:31	Error: 	"Not Found" (404) at link https://consult-ant.uk/2021/02/04/thoughts-on-process-and-inspiration/%22https:/www.pexels.com/photo/clear-light-bulb-placed-on-chalkboard-355952/ (from https://consult-ant.uk/2021/02/04/thoughts-on-process-and-inspiration/)
+22:33:31	Warning: 	Found for https://consult-ant.uk/2021/02/04/thoughts-on-process-and-inspiration/?share=twitter
+22:33:31	Warning: 	File has moved from https://consult-ant.uk/2021/02/04/thoughts-on-process-and-inspiration/?share=twitter to https://x.com/intent/tweet?text=Thoughts%20on%20Process%20and%20Inspiration&url=https%3A%2F%2Fconsult-ant.uk%2F2021%2F02%2F04%2Fthoughts-on-process-and-inspiration%2F
+22:33:31	Warning: 	Found for https://consult-ant.uk/2021/02/04/thoughts-on-process-and-inspiration/?share=facebook
+22:33:31	Warning: 	File has moved from https://consult-ant.uk/2021/02/04/thoughts-on-process-and-inspiration/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2021%2F02%2F04%2Fthoughts-on-process-and-inspiration%2F&t=Thoughts%20on%20Process%20and%20Inspiration
+22:33:31	Error: 	"Not Found" (404) at link https://consult-ant.uk/2021/02/04/thoughts-on-process-and-inspiration/iframe.src (from https://consult-ant.uk/2021/02/04/thoughts-on-process-and-inspiration/)
+22:33:31	Error: 	"Not Found" (404) at link https://consult-ant.uk/category/makeover-monday/%22https:/www.pexels.com/photo/clear-light-bulb-355948/ (from https://consult-ant.uk/category/makeover-monday/)
+22:33:31	Error: 	"Not Found" (404) at link https://consult-ant.uk/tag/inspiration/%22https:/www.pexels.com/photo/clear-light-bulb-355948/ (from https://consult-ant.uk/tag/inspiration/)
+22:33:31	Error: 	"Not Found" (404) at link https://consult-ant.uk/tag/makeovermonday-2/%22https:/www.pexels.com/photo/clear-light-bulb-355948/ (from https://consult-ant.uk/tag/makeovermonday-2/)
+22:33:31	Error: 	"Not Found" (404) at link https://consult-ant.uk/2020/08/16/why-blog/%22https:/www.pexels.com/photo/black-and-red-typewriter-on-white-table-3695297/ (from https://consult-ant.uk/2020/08/16/why-blog/)
+22:33:31	Warning: 	Found for https://consult-ant.uk/2020/08/16/why-blog/?share=twitter
+22:33:31	Warning: 	File has moved from https://consult-ant.uk/2020/08/16/why-blog/?share=twitter to https://x.com/intent/tweet?text=Why%20Blog%3F&url=https%3A%2F%2Fconsult-ant.uk%2F2020%2F08%2F16%2Fwhy-blog%2F
+22:33:32	Warning: 	Found for https://consult-ant.uk/2020/08/16/why-blog/?share=facebook
+22:33:32	Warning: 	File has moved from https://consult-ant.uk/2020/08/16/why-blog/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2020%2F08%2F16%2Fwhy-blog%2F&t=Why%20Blog%3F
+22:33:32	Error: 	"Not Found" (404) at link https://consult-ant.uk/2020/08/16/why-blog/iframe.src (from https://consult-ant.uk/2020/08/16/why-blog/)
+22:33:32	Error: 	"Not Found" (404) at link https://consult-ant.uk/tag/blogging/%22https:/www.pexels.com/photo/black-and-red-typewriter-on-white-table-3695297/ (from https://consult-ant.uk/tag/blogging/)
+22:33:32	Error: 	"Not Found" (404) at link https://consult-ant.uk/tag/firstblog/%22https:/www.pexels.com/photo/black-and-red-typewriter-on-white-table-3695297/ (from https://consult-ant.uk/tag/firstblog/)
+22:33:32	Warning: 	Found for https://consult-ant.uk/2022/02/09/ironviz-22-a-quick-review/?share=twitter
+22:33:32	Warning: 	File has moved from https://consult-ant.uk/2022/02/09/ironviz-22-a-quick-review/?share=twitter to https://x.com/intent/tweet?text=%23IronViz%20%2722%20-%20A%20Quick%20Review&url=https%3A%2F%2Fconsult-ant.uk%2F2022%2F02%2F09%2Fironviz-22-a-quick-review%2F
+22:33:32	Warning: 	Found for https://consult-ant.uk/2022/02/09/ironviz-22-a-quick-review/?share=facebook
+22:33:32	Warning: 	File has moved from https://consult-ant.uk/2022/02/09/ironviz-22-a-quick-review/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2022%2F02%2F09%2Fironviz-22-a-quick-review%2F&t=%23IronViz%20%2722%20-%20A%20Quick%20Review
+22:33:32	Error: 	"Not Found" (404) at link https://consult-ant.uk/2022/02/09/ironviz-22-a-quick-review/iframe.src (from https://consult-ant.uk/2022/02/09/ironviz-22-a-quick-review/)
+22:33:32	Warning: 	Found for https://consult-ant.uk/2021/11/18/mr-tickle/?share=twitter
+22:33:32	Warning: 	File has moved from https://consult-ant.uk/2021/11/18/mr-tickle/?share=twitter to https://x.com/intent/tweet?text=Mr.%20Tickle%21&url=https%3A%2F%2Fconsult-ant.uk%2F2021%2F11%2F18%2Fmr-tickle%2F
+22:33:33	Warning: 	Found for https://consult-ant.uk/2021/11/18/mr-tickle/?share=facebook
+22:33:33	Warning: 	File has moved from https://consult-ant.uk/2021/11/18/mr-tickle/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2021%2F11%2F18%2Fmr-tickle%2F&t=Mr.%20Tickle%21
+22:33:33	Error: 	"Not Found" (404) at link https://consult-ant.uk/2021/11/18/mr-tickle/iframe.src (from https://consult-ant.uk/2021/11/18/mr-tickle/)
+22:33:33	Warning: 	Found for https://consult-ant.uk/2021/05/04/makeover-monday-2021-week-18/?share=twitter
+22:33:33	Warning: 	File has moved from https://consult-ant.uk/2021/05/04/makeover-monday-2021-week-18/?share=twitter to https://x.com/intent/tweet?text=Makeover%20Monday%202021%20-%20Week%2018%20-%20Map%20Layers%2C%20Polygons%2C%20Pages&url=https%3A%2F%2Fconsult-ant.uk%2F2021%2F05%2F04%2Fmakeover-monday-2021-week-18%2F
+22:33:33	Warning: 	Found for https://consult-ant.uk/2021/05/04/makeover-monday-2021-week-18/?share=facebook
+22:33:33	Warning: 	File has moved from https://consult-ant.uk/2021/05/04/makeover-monday-2021-week-18/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2021%2F05%2F04%2Fmakeover-monday-2021-week-18%2F&t=Makeover%20Monday%202021%20-%20Week%2018%20-%20Map%20Layers%2C%20Polygons%2C%20Pages
+22:33:33	Error: 	"Not Found" (404) at link https://consult-ant.uk/2021/05/04/makeover-monday-2021-week-18/iframe.src (from https://consult-ant.uk/2021/05/04/makeover-monday-2021-week-18/)
+22:33:33	Warning: 	Found for https://consult-ant.uk/2021/03/10/happy-mario-day-slide-puzzle/?share=twitter
+22:33:33	Warning: 	File has moved from https://consult-ant.uk/2021/03/10/happy-mario-day-slide-puzzle/?share=twitter to https://x.com/intent/tweet?text=Happy%20Mario%20Day%21%20Slide%20Puzzle&url=https%3A%2F%2Fconsult-ant.uk%2F2021%2F03%2F10%2Fhappy-mario-day-slide-puzzle%2F
+22:33:33	Warning: 	Found for https://consult-ant.uk/2021/03/10/happy-mario-day-slide-puzzle/?share=facebook
+22:33:33	Warning: 	File has moved from https://consult-ant.uk/2021/03/10/happy-mario-day-slide-puzzle/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2021%2F03%2F10%2Fhappy-mario-day-slide-puzzle%2F&t=Happy%20Mario%20Day%21%20Slide%20Puzzle
+22:33:33	Error: 	"Not Found" (404) at link https://consult-ant.uk/2021/03/10/happy-mario-day-slide-puzzle/iframe.src (from https://consult-ant.uk/2021/03/10/happy-mario-day-slide-puzzle/)
+22:33:33	Warning: 	Found for https://consult-ant.uk/2021/02/14/diversity-in-data-feb-2021/?share=twitter
+22:33:33	Warning: 	File has moved from https://consult-ant.uk/2021/02/14/diversity-in-data-feb-2021/?share=twitter to https://x.com/intent/tweet?text=Diversity%20In%20Data%20-%20Feb%202021%20-%20Web%20Pages%20and%20Show%20Hide&url=https%3A%2F%2Fconsult-ant.uk%2F2021%2F02%2F14%2Fdiversity-in-data-feb-2021%2F
+22:33:33	Warning: 	Found for https://consult-ant.uk/2021/02/14/diversity-in-data-feb-2021/?share=facebook
+22:33:33	Warning: 	File has moved from https://consult-ant.uk/2021/02/14/diversity-in-data-feb-2021/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2021%2F02%2F14%2Fdiversity-in-data-feb-2021%2F&t=Diversity%20In%20Data%20-%20Feb%202021%20-%20Web%20Pages%20and%20Show%20Hide
+22:33:34	Error: 	"Not Found" (404) at link https://consult-ant.uk/2021/02/14/diversity-in-data-feb-2021/iframe.src (from https://consult-ant.uk/2021/02/14/diversity-in-data-feb-2021/)
+22:33:34	Warning: 	Found for https://consult-ant.uk/2021/08/19/tips-and-tricks-from-my-twitter-viz/?share=twitter
+22:33:34	Warning: 	File has moved from https://consult-ant.uk/2021/08/19/tips-and-tricks-from-my-twitter-viz/?share=twitter to https://x.com/intent/tweet?text=Tips%20and%20Tricks%20from%20my%20Twitter%20Viz&url=https%3A%2F%2Fconsult-ant.uk%2F2021%2F08%2F19%2Ftips-and-tricks-from-my-twitter-viz%2F
+22:33:34	Warning: 	Found for https://consult-ant.uk/2021/08/19/tips-and-tricks-from-my-twitter-viz/?share=facebook
+22:33:34	Warning: 	File has moved from https://consult-ant.uk/2021/08/19/tips-and-tricks-from-my-twitter-viz/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2021%2F08%2F19%2Ftips-and-tricks-from-my-twitter-viz%2F&t=Tips%20and%20Tricks%20from%20my%20Twitter%20Viz
+22:33:34	Error: 	"Not Found" (404) at link https://consult-ant.uk/2021/08/19/tips-and-tricks-from-my-twitter-viz/iframe.src (from https://consult-ant.uk/2021/08/19/tips-and-tricks-from-my-twitter-viz/)
+22:33:34	Warning: 	Found for https://consult-ant.uk/2020/12/30/makeover-monday-2020-week-52/?share=twitter
+22:33:34	Warning: 	File has moved from https://consult-ant.uk/2020/12/30/makeover-monday-2020-week-52/?share=twitter to https://x.com/intent/tweet?text=Makeover%20Monday%202020%20-%20Week%2052%20-%20Animations%20and%20Parameters&url=https%3A%2F%2Fconsult-ant.uk%2F2020%2F12%2F30%2Fmakeover-monday-2020-week-52%2F
+22:33:34	Warning: 	Found for https://consult-ant.uk/2020/12/30/makeover-monday-2020-week-52/?share=facebook
+22:33:34	Warning: 	File has moved from https://consult-ant.uk/2020/12/30/makeover-monday-2020-week-52/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2020%2F12%2F30%2Fmakeover-monday-2020-week-52%2F&t=Makeover%20Monday%202020%20-%20Week%2052%20-%20Animations%20and%20Parameters
+22:33:34	Error: 	"Not Found" (404) at link https://consult-ant.uk/2020/12/30/makeover-monday-2020-week-52/iframe.src (from https://consult-ant.uk/2020/12/30/makeover-monday-2020-week-52/)
+22:33:34	Warning: 	Found for https://consult-ant.uk/2020/12/04/makeover-monday-2020-week-48/?share=twitter
+22:33:34	Warning: 	File has moved from https://consult-ant.uk/2020/12/04/makeover-monday-2020-week-48/?share=twitter to https://x.com/intent/tweet?text=Makeover%20Monday%202020%20-%20Week%2048%20-%20Animation%20Transitions&url=https%3A%2F%2Fconsult-ant.uk%2F2020%2F12%2F04%2Fmakeover-monday-2020-week-48%2F
+22:33:34	Warning: 	Found for https://consult-ant.uk/2020/12/04/makeover-monday-2020-week-48/?share=facebook
+22:33:34	Warning: 	File has moved from https://consult-ant.uk/2020/12/04/makeover-monday-2020-week-48/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2020%2F12%2F04%2Fmakeover-monday-2020-week-48%2F&t=Makeover%20Monday%202020%20-%20Week%2048%20-%20Animation%20Transitions
+22:33:34	Error: 	"Not Found" (404) at link https://consult-ant.uk/2020/12/04/makeover-monday-2020-week-48/iframe.src (from https://consult-ant.uk/2020/12/04/makeover-monday-2020-week-48/)
+22:33:34	Warning: 	Found for https://consult-ant.uk/2020/12/18/makeover-monday-2020-week-50/?share=twitter
+22:33:34	Warning: 	File has moved from https://consult-ant.uk/2020/12/18/makeover-monday-2020-week-50/?share=twitter to https://x.com/intent/tweet?text=Makeover%20Monday%202020%20-%20Week%2050%20-%20Parameters%20and%20Painting&url=https%3A%2F%2Fconsult-ant.uk%2F2020%2F12%2F18%2Fmakeover-monday-2020-week-50%2F
+22:33:35	Warning: 	Found for https://consult-ant.uk/2020/12/18/makeover-monday-2020-week-50/?share=facebook
+22:33:35	Warning: 	File has moved from https://consult-ant.uk/2020/12/18/makeover-monday-2020-week-50/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2020%2F12%2F18%2Fmakeover-monday-2020-week-50%2F&t=Makeover%20Monday%202020%20-%20Week%2050%20-%20Parameters%20and%20Painting
+22:33:35	Error: 	"Not Found" (404) at link https://consult-ant.uk/2020/12/18/makeover-monday-2020-week-50/iframe.src (from https://consult-ant.uk/2020/12/18/makeover-monday-2020-week-50/)
+22:33:35	Error: 	"Not Found" (404) at link https://consult-ant.uk/tag/tableau-2/page/2/%22https:/www.pexels.com/photo/clear-light-bulb-355948/ (from https://consult-ant.uk/tag/tableau-2/page/2/)
+22:33:35	Warning: 	Found for https://consult-ant.uk/2020/10/16/makeover-monday-week-2020-40-and-animated-hex-maps/?share=twitter
+22:33:35	Warning: 	File has moved from https://consult-ant.uk/2020/10/16/makeover-monday-week-2020-40-and-animated-hex-maps/?share=twitter to https://x.com/intent/tweet?text=Makeover%20Monday%20week%202020-40%20and%20Animated%20Hex%20Maps&url=https%3A%2F%2Fconsult-ant.uk%2F2020%2F10%2F16%2Fmakeover-monday-week-2020-40-and-animated-hex-maps%2F
+22:33:35	Warning: 	Found for https://consult-ant.uk/2020/10/16/makeover-monday-week-2020-40-and-animated-hex-maps/?share=facebook
+22:33:35	Warning: 	File has moved from https://consult-ant.uk/2020/10/16/makeover-monday-week-2020-40-and-animated-hex-maps/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2020%2F10%2F16%2Fmakeover-monday-week-2020-40-and-animated-hex-maps%2F&t=Makeover%20Monday%20week%202020-40%20and%20Animated%20Hex%20Maps
+22:33:35	Error: 	"Not Found" (404) at link https://consult-ant.uk/2020/10/16/makeover-monday-week-2020-40-and-animated-hex-maps/iframe.src (from https://consult-ant.uk/2020/10/16/makeover-monday-week-2020-40-and-animated-hex-maps/)
+22:33:35	Warning: 	Found for https://consult-ant.uk/2020/10/02/generic-data-source-for-parameters/?share=twitter
+22:33:35	Warning: 	File has moved from https://consult-ant.uk/2020/10/02/generic-data-source-for-parameters/?share=twitter to https://x.com/intent/tweet?text=Generic%20Data%20Source%20for%20Parameters&url=https%3A%2F%2Fconsult-ant.uk%2F2020%2F10%2F02%2Fgeneric-data-source-for-parameters%2F
+22:33:35	Warning: 	Found for https://consult-ant.uk/2020/10/02/generic-data-source-for-parameters/?share=facebook
+22:33:35	Warning: 	File has moved from https://consult-ant.uk/2020/10/02/generic-data-source-for-parameters/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2020%2F10%2F02%2Fgeneric-data-source-for-parameters%2F&t=Generic%20Data%20Source%20for%20Parameters
+22:33:35	Error: 	"Not Found" (404) at link https://consult-ant.uk/2020/10/02/generic-data-source-for-parameters/iframe.src (from https://consult-ant.uk/2020/10/02/generic-data-source-for-parameters/)
+22:33:35	Warning: 	Found for https://consult-ant.uk/2021/07/09/ironviz_2021/?share=twitter
+22:33:35	Warning: 	File has moved from https://consult-ant.uk/2021/07/09/ironviz_2021/?share=twitter to https://x.com/intent/tweet?text=%23IronViz%20-%20How%20it%20went%20and%20How%20I%20did%20it&url=https%3A%2F%2Fconsult-ant.uk%2F2021%2F07%2F09%2Fironviz_2021%2F
+22:33:35	Warning: 	Found for https://consult-ant.uk/2021/07/09/ironviz_2021/?share=facebook
+22:33:35	Warning: 	File has moved from https://consult-ant.uk/2021/07/09/ironviz_2021/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2021%2F07%2F09%2Fironviz_2021%2F&t=%23IronViz%20-%20How%20it%20went%20and%20How%20I%20did%20it
+22:33:35	Error: 	"Not Found" (404) at link https://consult-ant.uk/2021/07/09/ironviz_2021/iframe.src (from https://consult-ant.uk/2021/07/09/ironviz_2021/)
+22:33:35	Error: 	"File Not Found" (404) at link https://i0.wp.com/companyconnecting.com/sites/default/files/Company-Connecting-Pg-1 (1).jpg?w=685&ssl=1 (from https://consult-ant.uk/2020/09/04/first-makeover-monday-2020-week-33/)
+22:33:35	Warning: 	Found for https://consult-ant.uk/2020/09/04/first-makeover-monday-2020-week-33/?share=twitter
+22:33:35	Warning: 	File has moved from https://consult-ant.uk/2020/09/04/first-makeover-monday-2020-week-33/?share=twitter to https://x.com/intent/tweet?text=First%20%23MakeoverMonday%20-%202020%20Week%2033&url=https%3A%2F%2Fconsult-ant.uk%2F2020%2F09%2F04%2Ffirst-makeover-monday-2020-week-33%2F
+22:33:35	Warning: 	Found for https://consult-ant.uk/2020/09/04/first-makeover-monday-2020-week-33/?share=facebook
+22:33:35	Warning: 	File has moved from https://consult-ant.uk/2020/09/04/first-makeover-monday-2020-week-33/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2020%2F09%2F04%2Ffirst-makeover-monday-2020-week-33%2F&t=First%20%23MakeoverMonday%20-%202020%20Week%2033
+22:33:35	Error: 	"Not Found" (404) at link https://consult-ant.uk/2020/09/04/first-makeover-monday-2020-week-33/iframe.src (from https://consult-ant.uk/2020/09/04/first-makeover-monday-2020-week-33/)
+22:33:35	Warning: 	Found for https://consult-ant.uk/2020/11/11/makeover-monday-2020-week-45/?share=twitter
+22:33:35	Warning: 	File has moved from https://consult-ant.uk/2020/11/11/makeover-monday-2020-week-45/?share=twitter to https://x.com/intent/tweet?text=Makeover%20Monday%202020%20-%20Week%2045%20-%20Parameters%20and%20Figma%20Design&url=https%3A%2F%2Fconsult-ant.uk%2F2020%2F11%2F11%2Fmakeover-monday-2020-week-45%2F
+22:33:35	Warning: 	Found for https://consult-ant.uk/2020/11/11/makeover-monday-2020-week-45/?share=facebook
+22:33:35	Warning: 	File has moved from https://consult-ant.uk/2020/11/11/makeover-monday-2020-week-45/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2020%2F11%2F11%2Fmakeover-monday-2020-week-45%2F&t=Makeover%20Monday%202020%20-%20Week%2045%20-%20Parameters%20and%20Figma%20Design
+22:33:35	Error: 	"Not Found" (404) at link https://consult-ant.uk/2020/11/11/makeover-monday-2020-week-45/iframe.src (from https://consult-ant.uk/2020/11/11/makeover-monday-2020-week-45/)
+22:33:35	Warning: 	Found for https://consult-ant.uk/2021/01/12/makeover-monday-2021-week-2/?share=twitter
+22:33:35	Warning: 	File has moved from https://consult-ant.uk/2021/01/12/makeover-monday-2021-week-2/?share=twitter to https://x.com/intent/tweet?text=Makeover%20Monday%202021%20-%20Week%202%20-%20Map%20Layers%20Learnings&url=https%3A%2F%2Fconsult-ant.uk%2F2021%2F01%2F12%2Fmakeover-monday-2021-week-2%2F
+22:33:35	Warning: 	Found for https://consult-ant.uk/2021/01/12/makeover-monday-2021-week-2/?share=facebook
+22:33:35	Warning: 	File has moved from https://consult-ant.uk/2021/01/12/makeover-monday-2021-week-2/?share=facebook to https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fconsult-ant.uk%2F2021%2F01%2F12%2Fmakeover-monday-2021-week-2%2F&t=Makeover%20Monday%202021%20-%20Week%202%20-%20Map%20Layers%20Learnings
+22:33:35	Error: 	"Not Found" (404) at link https://consult-ant.uk/2021/01/12/makeover-monday-2021-week-2/iframe.src (from https://consult-ant.uk/2021/01/12/makeover-monday-2021-week-2/)
+22:33:35	Error: 	"Not Found" (404) at link https://consult-ant.uk/page/3/%22https:/www.pexels.com/photo/black-and-red-typewriter-on-white-table-3695297/ (from https://consult-ant.uk/page/3/)
+22:33:35	Error: 	"Not Found" (404) at link https://consult-ant.uk/author/consultant5965/page/3/%22https:/www.pexels.com/photo/black-and-red-typewriter-on-white-table-3695297/ (from https://consult-ant.uk/author/consultant5965/page/3/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 19 minutes 7 seconds : 1201 links scanned, 1085 files written (136802654 bytes overall) [122195980 bytes received at 106535 bytes/sec], 29788816 bytes transferred using HTTP compression in 460 files, ratio 29%, 9.0 requests per connection
+(49 errors, 132 warnings, 0 messages)
