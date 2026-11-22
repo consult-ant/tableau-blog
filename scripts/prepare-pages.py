@@ -53,6 +53,19 @@ def rewrite_platform_url(url: str, page: Path, destination: Path) -> str:
 
 
 def clean_platform_references(content: str, page: Path, destination: Path) -> str:
+    content = re.sub(
+        r"<script\b(?=[^>]*\bid\s*=\s*[\"']gifting-banner-js(?:-extra)?[\"'])[^>]*>.*?</script\s*>",
+        "",
+        content,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    content = re.sub(
+        r"<link\b(?=[^>]*gifting-banner)[^>]*>",
+        "",
+        content,
+        flags=re.IGNORECASE,
+    )
+    content = re.sub(r"[\"']gifting-banner[\"']\s*,?", "", content)
     content = URL_PATTERN.sub(
         lambda match: rewrite_platform_url(match.group("url"), page, destination),
         content,
@@ -146,7 +159,9 @@ def prepare_site(source: Path, destination: Path) -> None:
     shutil.copytree(
         source,
         destination,
-        ignore=shutil.ignore_patterns("hts-cache", "hts-log.txt", "wp-json"),
+        ignore=shutil.ignore_patterns(
+            "hts-cache", "hts-log.txt", "wp-json", "gifting-banner"
+        ),
     )
 
     static_dir = destination / "consult-ant.uk" / "_static"
