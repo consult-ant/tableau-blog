@@ -285,6 +285,22 @@ def update_contact_page(content: str, page: Path, destination: Path) -> str:
     return content
 
 
+def update_about_page(content: str, page: Path, destination: Path) -> str:
+    if page.relative_to(destination).as_posix() != "consult-ant.uk/home/index.html":
+        return content
+
+    content, replacements = re.subn(
+        r"(<div\b[^>]*\bclass\s*=\s*[\"'][^\"']*\bentry-content\b[^\"']*[\"'][^>]*>)",
+        r'\1\n<p class="has-text-align-center wp-block-paragraph"><em>About me - As at 2024</em></p>',
+        content,
+        count=1,
+        flags=re.IGNORECASE,
+    )
+    if replacements != 1:
+        raise ValueError(f"About page content section not found: {page}")
+    return content
+
+
 def bundle_extension(path: Path) -> str:
     text = path.read_text(encoding="utf-8", errors="replace")
     sample = re.sub(r"/\*.*?\*/", " ", text[:8192], flags=re.DOTALL).lstrip()
@@ -378,6 +394,7 @@ def prepare_site(source: Path, destination: Path) -> None:
         updated = clean_platform_references(updated, page, destination)
         updated = remove_subscription_comment_and_like_sections(updated)
         updated = update_contact_page(updated, page, destination)
+        updated = update_about_page(updated, page, destination)
         if updated != content:
             page.write_text(updated, encoding="utf-8")
 
