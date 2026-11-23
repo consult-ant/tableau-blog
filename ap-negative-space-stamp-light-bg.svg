@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <mask id="ap-stamp-light-bg-stamp-mask">
+      <!-- White reveals solid badge; Black punches true alpha transparency -->
+      <rect x="12" y="12" width="96" height="96" rx="24" fill="#FFFFFF"/>
+      <!-- Punched Bold 'A' -->
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M36 28 H51 L60 92 H46.5 L45 78 H33 L29 92 H17 L36 28 Z M41.5 47 L36 65 H43.5 L41.5 47 Z" fill="#000000"/>
+      <!-- Punched Bold 'P' -->
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M64 28 H83 C95.5 28 103 36 103 48.5 C103 61 95.5 69 83 69 H77 V92 H64 V28 Z M77 41 V56 H82 C86.5 56 89.5 53 89.5 48.5 C89.5 44 86.5 41 82 41 H77 Z" fill="#000000"/>
+    </mask>
+  </defs>
+
+  <!-- Solid Squircle Stamp with True Transparent Cutout -->
+  <rect x="12" y="12" width="96" height="96" rx="24" fill="#00048C" mask="url(#ap-stamp-light-bg-stamp-mask)"/>
+  <!-- Subtle Corner Accent Pip -->
+  <circle cx="91" cy="87" r="6.5" fill="#38BDF8"/>
+</svg>

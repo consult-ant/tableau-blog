@@ -381,10 +381,10 @@ def prepare_site(source: Path, destination: Path) -> None:
         if updated != content:
             page.write_text(updated, encoding="utf-8")
 
-    favicon_source = source.parent / "ap-monogram-parametric-sliceFavicon.svg"
+    favicon_source = source.parent / "ap-negative-space-stamp-light-bg.svg"
     if not favicon_source.is_file():
         raise FileNotFoundError(f"Favicon asset not found: {favicon_source}")
-    favicon = destination / "ap-monogram-parametric-sliceFavicon.svg"
+    favicon = destination / "ap-negative-space-stamp-light-bg.svg"
     shutil.copy2(favicon_source, favicon)
 
     for page in destination.rglob("*.html"):
