@@ -19,3 +19,6 @@ to **GitHub Actions**. The deployed root redirects visitors to the blog at
 
 The original mirror files remain in `Consult-Ant/`; the build prepares a
 separate deployable copy and does not modify the archive.
+
+The build copies `ap-monogram-parametric-sliceFavicon.svg` into the deployed
+site and replaces the archived WordPress favicon links with the monogram.

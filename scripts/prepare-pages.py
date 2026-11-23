@@ -146,6 +146,42 @@ def bundle_extension(path: Path) -> str:
     raise ValueError(f"Unable to identify CSS or JavaScript bundle: {path}")
 
 
+def replace_favicon(content: str, page: Path, favicon: Path) -> str:
+    content = re.sub(
+        r"<link\b[^>]*\brel\s*=\s*([\"'])(?:shortcut\s+)?icon\1[^>]*>\s*",
+        "",
+        content,
+        flags=re.IGNORECASE,
+    )
+    content = re.sub(
+        r"<link\b[^>]*\brel\s*=\s*([\"'])apple-touch-icon(?:-precomposed)?\1[^>]*>\s*",
+        "",
+        content,
+        flags=re.IGNORECASE,
+    )
+    content = re.sub(
+        r"<meta\b[^>]*\bname\s*=\s*([\"'])msapplication-TileImage\1[^>]*>\s*",
+        "",
+        content,
+        flags=re.IGNORECASE,
+    )
+
+    favicon_url = os.path.relpath(str(favicon), str(page.parent)).replace(os.sep, "/")
+    favicon_links = (
+        f'<link rel="icon" type="image/svg+xml" href="{favicon_url}" />\n'
+        f'<link rel="shortcut icon" href="{favicon_url}" />'
+    )
+    if re.search(r"<head(?:\s[^>]*)?>", content, flags=re.IGNORECASE):
+        return re.sub(
+            r"(<head(?:\s[^>]*)?>)",
+            rf"\1\n  {favicon_links}",
+            content,
+            count=1,
+            flags=re.IGNORECASE,
+        )
+    return content
+
+
 def prepare_site(source: Path, destination: Path) -> None:
     source = source.resolve()
     destination = destination.resolve()
@@ -185,6 +221,18 @@ def prepare_site(source: Path, destination: Path) -> None:
         content = page.read_text(encoding="utf-8", errors="replace")
         updated = re.sub(r"_static/(index[a-z0-9]+)\.html", replace_bundle, content)
         updated = clean_platform_references(updated, page, destination)
+        if updated != content:
+            page.write_text(updated, encoding="utf-8")
+
+    favicon_source = source.parent / "ap-monogram-parametric-sliceFavicon.svg"
+    if not favicon_source.is_file():
+        raise FileNotFoundError(f"Favicon asset not found: {favicon_source}")
+    favicon = destination / "ap-monogram-parametric-sliceFavicon.svg"
+    shutil.copy2(favicon_source, favicon)
+
+    for page in destination.rglob("*.html"):
+        content = page.read_text(encoding="utf-8", errors="replace")
+        updated = replace_favicon(content, page, favicon)
         if updated != content:
             page.write_text(updated, encoding="utf-8")
 
