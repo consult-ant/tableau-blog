@@ -9,7 +9,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 
-URL_PATTERN = re.compile(r"(?P<url>(?:https?:)?//[^\s\"'<>]+)", re.IGNORECASE)
+URL_PATTERN = re.compile(r"(?P<url>(?:https?:)?//[^\s,\"'<>]+)", re.IGNORECASE)
 WORDPRESS_SUFFIXES = (".wordpress.com", ".wordpress.org", ".wp.com")
 
 
@@ -66,6 +66,25 @@ def clean_platform_references(content: str, page: Path, destination: Path) -> st
         flags=re.IGNORECASE,
     )
     content = re.sub(r"[\"']gifting-banner[\"']\s*,?", "", content)
+
+    def rewrite_srcset(match: re.Match) -> str:
+        quote = match.group(1)
+        candidates = []
+        for candidate in match.group(2).split(","):
+            parts = candidate.strip().split()
+            if not parts:
+                continue
+            url = rewrite_platform_url(parts[0], page, destination)
+            if url:
+                candidates.append(" ".join((url, *parts[1:])))
+        return f"srcset={quote}{', '.join(candidates)}{quote}" if candidates else ""
+
+    content = re.sub(
+        r"\bsrcset\s*=\s*([\"'])(.*?)\1",
+        rewrite_srcset,
+        content,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
     content = URL_PATTERN.sub(
         lambda match: rewrite_platform_url(match.group("url"), page, destination),
         content,
