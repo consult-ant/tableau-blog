@@ -12,7 +12,8 @@ tab). The build keeps the mirrored pages and their local assets, fixes the
 archived CSS and JavaScript bundle extensions so browsers can load them from
 GitHub Pages, removes old platform links, branding, promotional banners,
 subscription prompts, comment and like controls, and omits the HTTrack update
-cache.
+cache. The Contact page points visitors to LinkedIn instead of displaying the
+archived contact form.
 
 To enable deployment, set **Settings → Pages → Build and deployment → Source**
 to **GitHub Actions**. The deployed root redirects visitors to the blog at

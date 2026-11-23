@@ -26,6 +26,7 @@ REMOVED_ELEMENT_CLASSES = {
     "comment-subscription-form",
     "comments-area",
     "comments-link",
+    "jetpack-contact-form-container",
     "jetpack-likes-widget-wrapper",
     "jetpack-subscription-modal",
     "jetpack_subscription_widget",
@@ -268,6 +269,22 @@ def remove_subscription_comment_and_like_sections(content: str) -> str:
     return content
 
 
+def update_contact_page(content: str, page: Path, destination: Path) -> str:
+    if page.relative_to(destination).as_posix() != "consult-ant.uk/contact/index.html":
+        return content
+
+    content, replacements = re.subn(
+        r"(<h1\b[^>]*>\s*Contact\s*</h1>)",
+        r'\1\n<p>For enquiries, connect with me on <a href="https://www.linkedin.com/in/antpulley/">LinkedIn</a>.</p>',
+        content,
+        count=1,
+        flags=re.IGNORECASE,
+    )
+    if replacements != 1:
+        raise ValueError(f"Contact page heading not found: {page}")
+    return content
+
+
 def bundle_extension(path: Path) -> str:
     text = path.read_text(encoding="utf-8", errors="replace")
     sample = re.sub(r"/\*.*?\*/", " ", text[:8192], flags=re.DOTALL).lstrip()
@@ -360,6 +377,7 @@ def prepare_site(source: Path, destination: Path) -> None:
         updated = re.sub(r"_static/(index[a-z0-9]+)\.html", replace_bundle, content)
         updated = clean_platform_references(updated, page, destination)
         updated = remove_subscription_comment_and_like_sections(updated)
+        updated = update_contact_page(updated, page, destination)
         if updated != content:
             page.write_text(updated, encoding="utf-8")
 
