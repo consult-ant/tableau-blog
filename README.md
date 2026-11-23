@@ -10,8 +10,9 @@ The GitHub Actions workflow builds the site from `Consult-Ant/` and deploys it
 when changes are pushed to `main` (or when manually started from the Actions
 tab). The build keeps the mirrored pages and their local assets, fixes the
 archived CSS and JavaScript bundle extensions so browsers can load them from
-GitHub Pages, removes old platform links, branding, and promotional banners,
-and omits the HTTrack update cache.
+GitHub Pages, removes old platform links, branding, promotional banners,
+subscription prompts, comment and like controls, and omits the HTTrack update
+cache.
 
 To enable deployment, set **Settings → Pages → Build and deployment → Source**
 to **GitHub Actions**. The deployed root redirects visitors to the blog at
